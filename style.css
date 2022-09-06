@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: #eceff1;
+  transition: 0.3s;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.bi-moon {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eceff1;
+  box-shadow: 0.5px 0.5px 10px 0.5px rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card-details,
+.card-image {
+  width: 50%;
+  padding: 2rem;
+}
+
+.card {
+  margin-top: 4rem;
+  display: flex;
+  width: 60%;
+  background: #fff;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+  position: relative;
+  background: #eff7fc;
+}
+
+.card-image span {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.card img {
+  width: 130%;
+  transform: rotate(-25deg);
+  position: absolute;
+  right: -1rem;
+  top: 10rem;
+}
+
+.card-details h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.btn {
+  background: #444;
+  width: 7rem;
+  height: 3rem;
+  border: none;
+  border-radius: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark,
+.dark header {
+  background: #263238;
+  color: #fff;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+.dark .card {
+  background: #37474f;
+}
+
+.dark .card-image {
+  background-color: #273035;
+}
+
+.dark .subtitle {
+  color: #67b4f3;
+}
+
+.dark .description {
+  color: #2196f3;
+}
+
+.dark .btn {
+  background: #67b4f3;
+}
