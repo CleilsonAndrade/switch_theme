@@ -50,7 +50,7 @@ Landing page responsiva de um tênis, com a opção de troca dos claro e escuro,
 # 🚀 <span id="instalação">Instalação</span>
 ```bash
   # Clone este repositório:
-  $ git clone https://github.com/CleilsonAndrade/switch_theme
+  $ git clone https://github.com/CleilsonAndrade/switch_theme.git
   $ cd ./switch_theme
 ```
 
