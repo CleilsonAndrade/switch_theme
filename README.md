@@ -16,7 +16,7 @@
 * [Licença](#licença)
 
 # 📃 <span id="descrição">Descrição</span>
-Landing page responsiva de um tênis, com a opção de troca dos claro e escuro, utilizando JavaScript.
+Landing page responsiva de um tênis, com a opção de troca dos claro e escuro, utilizando JavaScript e utilizando o pacote ícones [**Bootstrap Icons**](https://icons.getbootstrap.com/).
 
 # 📌 <span id="requisitos">Requisitos Funcionais</span>
 - [x] Troca de tema, claro e escuro<br>
